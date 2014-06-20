@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose cache add [ '.', null ]
+5 verbose cache add name=undefined spec="." args=[".",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: '.',
+6 verbose parsed url   path: '.',
+6 verbose parsed url   href: '.' }
+7 silly lockFile 3a52ce78- .
+8 verbose lock . /Users/John/.npm/3a52ce78-.lock
+9 silly lockFile 3a52ce78- .
+10 silly lockFile 3a52ce78- .
+11 error addLocal Could not install .
+12 error Error: No name provided
+12 error     at needName (/usr/local/lib/node_modules/npm/lib/cache.js:1440:37)
+12 error     at /usr/local/lib/node_modules/npm/lib/cache.js:1252:10
+12 error     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:51:40
+12 error     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:349:17)
+12 error     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:126:33)
+12 error     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:331:40
+12 error     at fs.js:266:14
+12 error     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:105:5
+12 error     at Object.oncomplete (fs.js:107:15)
+13 error If you need help, you may report this *entire* log,
+13 error including the npm and node versions, at:
+13 error     <http://github.com/npm/npm/issues>
+14 error System Darwin 13.2.0
+15 error command "node" "/usr/local/bin/npm" "install" "-g"
+16 error cwd /Users/John/github/web-starter-kit
+17 error node -v v0.10.28
+18 error npm -v 1.4.9
+19 verbose exit [ 1, true ]

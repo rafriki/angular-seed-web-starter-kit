@@ -17,7 +17,7 @@ A child of:
 
 	gulp
 
-#### To run tests:
+#### To build:
 
 	gulp
 

@@ -9,6 +9,8 @@ A child of:
 
 	cd angular-seed-web-starter-kit
 
+	sudo npm install
+	OR, to install dependencies globally
 	sudo npm install -g
 
 	cd app

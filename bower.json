@@ -2,7 +2,7 @@
   "name": "angular-web-starter-kit",
   "description": "A Google Starter Project for Angularjs",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "homepage": "https://github.com/rafriki/angular-seed-web-starter-kit",
   "license": "MIT",
   "private": true,
   "dependencies": {

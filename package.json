@@ -1,4 +1,9 @@
 {
+  "name": "angular-web-starter-kit",
+  "description": "A Google Starter Project for Angularjs",
+  "version": "0.0.0",
+  "homepage": "https://github.com/rafriki/angular-seed-web-starter-kit",
+    
   "devDependencies": {
     "browser-sync": "^1.1.2",
     "del": "^0.1.1",

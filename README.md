@@ -9,14 +9,11 @@ A child of:
 
 	cd angular-seed-web-starter-kit
 
-	sudo npm install
-	OR, to install dependencies globally
-	sudo npm install -g
+	//Install dependencies
+	npm install
+	bower install
 
-	cd app
-
-	sudo bower install
-
+	//Build project
 	gulp
 
 #### To build:

@@ -3,6 +3,8 @@
 A child of:
 [Web Starter Kit](http://developers.google.com/web/starter-kit) & [Angular Seed](https://github.com/angular/angular-seed)
 
+This project is currently using Web Starter Kit v0.4.0
+
 ### To use:
 
 	git clone https://github.com/rafriki/angular-seed-web-starter-kit.git
@@ -23,3 +25,7 @@ A child of:
 #### To start server:
 
 	gulp serve
+
+#### Production:
+
+Does not currently work!

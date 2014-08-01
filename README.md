@@ -5,7 +5,7 @@ A child of:
 
 This project is currently using Web Starter Kit v0.4.0
 
-A kind of rudimentary deployment system for Heroku is included.  At the moment, these deployments will only serve out of the ./app folder, not the ./dist folder.  As such (and a litany of other reasons) you should not use this in production.
+A rudimentary deployment system for Heroku is included.  At the moment, these deployments will only serve out of the ./app folder, not the ./dist folder.  As such (and a litany of other reasons) you should not use this in production.
 
 
 ### To use:
@@ -14,10 +14,10 @@ A kind of rudimentary deployment system for Heroku is included.  At the moment, 
 
 	cd angular-seed-web-starter-kit
 
-	//Install dependencies
+	# Install dependencies
 	npm install
 
-	//Build project
+	# Build project
 	gulp
 
 #### To build:
@@ -30,10 +30,10 @@ A kind of rudimentary deployment system for Heroku is included.  At the moment, 
 
 ### To deploy to Heroku:
 
-Assuming you're all commited, you have a Heroku account and have the [Heroku Toolbox](https://toolbelt.heroku.com/)
+Assuming you're all commited, you have a Heroku account and have the [Heroku Toolbox](https://toolbelt.heroku.com/).  Start with `gulp` if you haven't run that or `gulp serve` already.
 
-	1. `heroku create`
-	2. `git push heroku master`
-	3. `heroku ps:scale web=1`
+	heroku create
+	git push heroku master
+	heroku ps:scale web=1
 
-Easy.  
+Easy.

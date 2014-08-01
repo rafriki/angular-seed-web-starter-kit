@@ -16,7 +16,6 @@ A kind of rudimentary deployment system for Heroku is included.  At the moment, 
 
 	//Install dependencies
 	npm install
-	bower install
 
 	//Build project
 	gulp
@@ -33,8 +32,8 @@ A kind of rudimentary deployment system for Heroku is included.  At the moment, 
 
 Assuming you're all commited, you have a Heroku account and have the [Heroku Toolbox](https://toolbelt.heroku.com/)
 
-	1. `$ heroku create`
-	2. `$ git push heroku master`
-	3. `$ heroku ps:scale web=1`
+	1. `heroku create`
+	2. `git push heroku master`
+	3. `heroku ps:scale web=1`
 
 Easy.  

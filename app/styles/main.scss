@@ -5,7 +5,13 @@
  * Web Starter Kit team.
  *
  */
+@import '_h5bp';
 
+/*
+ * Visual Style Guide styles
+ * Remove if you prefer to use a CSS library, like Bootstrap
+ */
+@import 'components/components';
 
 html,
 body {
@@ -17,9 +23,9 @@ body {
 
 body {
   position: relative;
-  font-family: 'Roboto Condensed', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   font-weight: 300;
-  background-color: #FFFFFF;
+  background-color: #fff;
   box-sizing: border-box;
   min-height: 100%;
 }
@@ -70,7 +76,7 @@ body.open {
   float: none;
   max-width: none;
   font-weight: 300;
-  line-height: 60px;
+  display: initial;
 }
 
 .app-bar .logo a {
@@ -96,14 +102,15 @@ body.open {
   background-color: transparent;
   border: none;
   padding: 0;
+  display: inline-block;
   -webkit-transition: background-color 0.2s ease-out;
           transition: background-color 0.2s ease-out;
   -webkit-tap-highlight-color: transparent;
 }
 
 .app-bar button img {
-  width: 60px;
-  height: 60px;
+  height: 24px;
+  width: 24px;
 }
 
 .app-bar button:hover {
@@ -119,11 +126,6 @@ body.open {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
-button.menu img {
-  height:24px;
-  width: 24px;
-}
-
 .promote-layer {
   /*
   This may promote the layer to a composited
@@ -137,7 +139,10 @@ button.menu img {
   backface-visibility: hidden;
 }
 
-.base, p, ul, ol {
+.base,
+p,
+ul,
+ol {
   font-size: 19px;
 }
 
@@ -160,14 +165,16 @@ button.menu img {
           transform: translate(0, 0);
 }
 
-.app-bar, .navdrawer-container, main {
+.app-bar,
+.navdrawer-container.opened,
+main {
   -webkit-transition: -webkit-transform 0.3s ease-out;
           transition: transform 0.3s ease-out;
 }
 
 .navdrawer-container h4,
 .navdrawer-container ul li a {
-  height: auto;
+  height: 60px;
   padding: 17px 20px;
   line-height: 1.4;
 }
@@ -268,16 +275,11 @@ main {
     display: none;
   }
 
-  nav {
-    display: block;
-    margin-top: 130px;
-  }
-
   .navdrawer-container {
     position: relative;
     width: 100%;
     height: auto;
-    margin-top: 130px;
+    margin-top: 0;
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
     -webkit-transition: none;
@@ -312,11 +314,6 @@ main {
 
   body {
     overflow-y: scroll;
-  }
-
-  .navdrawer-container {
-    position: relative;
-    margin-top: 0;
   }
 }
 

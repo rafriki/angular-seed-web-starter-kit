@@ -3,7 +3,7 @@
 A child of:
 [Web Starter Kit](http://developers.google.com/web/starter-kit) & [Angular Seed](https://github.com/angular/angular-seed)
 
-This project is currently using Web Starter Kit v0.4.0
+This project is currently using Web Starter Kit v0.5.1
 
 A rudimentary deployment system for Heroku is included.  At the moment, these deployments will only serve out of the ./app folder, not the ./dist folder.  As such (and a litany of other reasons) you should not use this in production.
 
